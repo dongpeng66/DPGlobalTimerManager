@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36603D6420D361C0001A4FA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36603D6320D361C0001A4FA7 /* AppDelegate.m */; };
+		36603D6720D361C0001A4FA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36603D6620D361C0001A4FA7 /* ViewController.m */; };
+		36603D6A20D361C1001A4FA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36603D6820D361C1001A4FA7 /* Main.storyboard */; };
+		36603D6C20D361C1001A4FA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36603D6B20D361C1001A4FA7 /* Assets.xcassets */; };
+		36603D6F20D361C1001A4FA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36603D6D20D361C1001A4FA7 /* LaunchScreen.storyboard */; };
+		36603D7220D361C1001A4FA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36603D7120D361C1001A4FA7 /* main.m */; };
+		36603D7C20D361C1001A4FA7 /* DPGlobalTimerManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36603D7B20D361C1001A4FA7 /* DPGlobalTimerManagerTests.m */; };
+		36603D8820D364B1001A4FA7 /* DPGlobalTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36603D8720D364B1001A4FA7 /* DPGlobalTimerManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36603D7820D361C1001A4FA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36603D5720D361C0001A4FA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36603D5E20D361C0001A4FA7;
+			remoteInfo = DPGlobalTimerManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36603D5F20D361C0001A4FA7 /* DPGlobalTimerManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DPGlobalTimerManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36603D6220D361C0001A4FA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36603D6320D361C0001A4FA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36603D6520D361C0001A4FA7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36603D6620D361C0001A4FA7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		36603D6920D361C1001A4FA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36603D6B20D361C1001A4FA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36603D6E20D361C1001A4FA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36603D7020D361C1001A4FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36603D7120D361C1001A4FA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36603D7720D361C1001A4FA7 /* DPGlobalTimerManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DPGlobalTimerManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36603D7B20D361C1001A4FA7 /* DPGlobalTimerManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPGlobalTimerManagerTests.m; sourceTree = "<group>"; };
+		36603D7D20D361C1001A4FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36603D8620D364B1001A4FA7 /* DPGlobalTimerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPGlobalTimerManager.h; sourceTree = "<group>"; };
+		36603D8720D364B1001A4FA7 /* DPGlobalTimerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPGlobalTimerManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36603D5C20D361C0001A4FA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36603D7420D361C1001A4FA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36603D5620D361C0001A4FA7 = {
+			isa = PBXGroup;
+			children = (
+				36603D6120D361C0001A4FA7 /* DPGlobalTimerManager */,
+				36603D7A20D361C1001A4FA7 /* DPGlobalTimerManagerTests */,
+				36603D6020D361C0001A4FA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36603D6020D361C0001A4FA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36603D5F20D361C0001A4FA7 /* DPGlobalTimerManager.app */,
+				36603D7720D361C1001A4FA7 /* DPGlobalTimerManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36603D6120D361C0001A4FA7 /* DPGlobalTimerManager */ = {
+			isa = PBXGroup;
+			children = (
+				36603D6220D361C0001A4FA7 /* AppDelegate.h */,
+				36603D6320D361C0001A4FA7 /* AppDelegate.m */,
+				36603D6520D361C0001A4FA7 /* ViewController.h */,
+				36603D6620D361C0001A4FA7 /* ViewController.m */,
+				36603D8620D364B1001A4FA7 /* DPGlobalTimerManager.h */,
+				36603D8720D364B1001A4FA7 /* DPGlobalTimerManager.m */,
+				36603D6820D361C1001A4FA7 /* Main.storyboard */,
+				36603D6B20D361C1001A4FA7 /* Assets.xcassets */,
+				36603D6D20D361C1001A4FA7 /* LaunchScreen.storyboard */,
+				36603D7020D361C1001A4FA7 /* Info.plist */,
+				36603D7120D361C1001A4FA7 /* main.m */,
+			);
+			path = DPGlobalTimerManager;
+			sourceTree = "<group>";
+		};
+		36603D7A20D361C1001A4FA7 /* DPGlobalTimerManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				36603D7B20D361C1001A4FA7 /* DPGlobalTimerManagerTests.m */,
+				36603D7D20D361C1001A4FA7 /* Info.plist */,
+			);
+			path = DPGlobalTimerManagerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36603D5E20D361C0001A4FA7 /* DPGlobalTimerManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36603D8020D361C1001A4FA7 /* Build configuration list for PBXNativeTarget "DPGlobalTimerManager" */;
+			buildPhases = (
+				36603D5B20D361C0001A4FA7 /* Sources */,
+				36603D5C20D361C0001A4FA7 /* Frameworks */,
+				36603D5D20D361C0001A4FA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DPGlobalTimerManager;
+			productName = DPGlobalTimerManager;
+			productReference = 36603D5F20D361C0001A4FA7 /* DPGlobalTimerManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36603D7620D361C1001A4FA7 /* DPGlobalTimerManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36603D8320D361C1001A4FA7 /* Build configuration list for PBXNativeTarget "DPGlobalTimerManagerTests" */;
+			buildPhases = (
+				36603D7320D361C1001A4FA7 /* Sources */,
+				36603D7420D361C1001A4FA7 /* Frameworks */,
+				36603D7520D361C1001A4FA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36603D7920D361C1001A4FA7 /* PBXTargetDependency */,
+			);
+			name = DPGlobalTimerManagerTests;
+			productName = DPGlobalTimerManagerTests;
+			productReference = 36603D7720D361C1001A4FA7 /* DPGlobalTimerManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36603D5720D361C0001A4FA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				TargetAttributes = {
+					36603D5E20D361C0001A4FA7 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					36603D7620D361C1001A4FA7 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 36603D5E20D361C0001A4FA7;
+					};
+				};
+			};
+			buildConfigurationList = 36603D5A20D361C0001A4FA7 /* Build configuration list for PBXProject "DPGlobalTimerManager" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36603D5620D361C0001A4FA7;
+			productRefGroup = 36603D6020D361C0001A4FA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36603D5E20D361C0001A4FA7 /* DPGlobalTimerManager */,
+				36603D7620D361C1001A4FA7 /* DPGlobalTimerManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36603D5D20D361C0001A4FA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36603D6F20D361C1001A4FA7 /* LaunchScreen.storyboard in Resources */,
+				36603D6C20D361C1001A4FA7 /* Assets.xcassets in Resources */,
+				36603D6A20D361C1001A4FA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36603D7520D361C1001A4FA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36603D5B20D361C0001A4FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36603D6720D361C0001A4FA7 /* ViewController.m in Sources */,
+				36603D7220D361C1001A4FA7 /* main.m in Sources */,
+				36603D8820D364B1001A4FA7 /* DPGlobalTimerManager.m in Sources */,
+				36603D6420D361C0001A4FA7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36603D7320D361C1001A4FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36603D7C20D361C1001A4FA7 /* DPGlobalTimerManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36603D7920D361C1001A4FA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36603D5E20D361C0001A4FA7 /* DPGlobalTimerManager */;
+			targetProxy = 36603D7820D361C1001A4FA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36603D6820D361C1001A4FA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36603D6920D361C1001A4FA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36603D6D20D361C1001A4FA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36603D6E20D361C1001A4FA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36603D7E20D361C1001A4FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36603D7F20D361C1001A4FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36603D8120D361C1001A4FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743AJ5X2T6;
+				INFOPLIST_FILE = DPGlobalTimerManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.renZhongJinRong.RZJR.anniversary2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36603D8220D361C1001A4FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743AJ5X2T6;
+				INFOPLIST_FILE = DPGlobalTimerManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.renZhongJinRong.RZJR.anniversary2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		36603D8420D361C1001A4FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DPGlobalTimerManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DP.DPGlobalTimerManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DPGlobalTimerManager.app/DPGlobalTimerManager";
+			};
+			name = Debug;
+		};
+		36603D8520D361C1001A4FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DPGlobalTimerManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DP.DPGlobalTimerManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DPGlobalTimerManager.app/DPGlobalTimerManager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36603D5A20D361C0001A4FA7 /* Build configuration list for PBXProject "DPGlobalTimerManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36603D7E20D361C1001A4FA7 /* Debug */,
+				36603D7F20D361C1001A4FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36603D8020D361C1001A4FA7 /* Build configuration list for PBXNativeTarget "DPGlobalTimerManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36603D8120D361C1001A4FA7 /* Debug */,
+				36603D8220D361C1001A4FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36603D8320D361C1001A4FA7 /* Build configuration list for PBXNativeTarget "DPGlobalTimerManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36603D8420D361C1001A4FA7 /* Debug */,
+				36603D8520D361C1001A4FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36603D5720D361C0001A4FA7 /* Project object */;
+}
